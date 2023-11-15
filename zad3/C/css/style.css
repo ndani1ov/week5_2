@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+button {
+    padding: 10px;
+    background-color: #914719;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bold;
+    font-size: 25px;
+    font-size: larger;
+}
+
+input {
+    font-size: 18px;
+    display: block;
+    margin: 10px auto;
+}
+
+textarea {
+    margin: 10px auto;
+}

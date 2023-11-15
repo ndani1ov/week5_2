@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeScript task 1B</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Числа Фибоначчи</h1>
+    <input id="number-input" type="number" placeholder="Введите число">
+    <button onclick="handleCalculateFibonacciClassic()">Вычислить (классический)</button>
+    <button onclick="handleCalculateFibonacciRecursive()">Вычислить (рекурсивный)</button>
+    <textarea id="fibonacci-output" rows="10" cols="50" placeholder="Числа Фибоначчи будут отображены здесь"
+        readonly></textarea>
+    <br>
+    <textarea id="time-output" rows="2" cols="50" placeholder="Время выполнения будет отображено здесь" readonly></textarea>
+
+
+    <script src="./build/index.js"></script>
+</body>
+</html>
