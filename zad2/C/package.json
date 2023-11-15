@@ -1,7 +1,7 @@
 {
-  "name": "week4_2c",
+  "name": "week5_2c",
   "version": "0.0.1",
-  "description": "week 4",
+  "description": "week 5",
   "main": "index.js",
   "scripts": {
     "dev": "rimraf ./build && npx tsc --watch"
